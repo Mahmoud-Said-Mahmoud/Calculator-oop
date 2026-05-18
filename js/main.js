@@ -44,14 +44,8 @@ class Calc{
             case '%' :
                 return a%b;
                 break;
-            case '^2' :
+            case '*2' :
                 return Math.pow(a,2);
-                break;
-            case 'Del' :
-                return a=" ";
-                break;
-            case 'Del' :
-                return b=" ";
                 break;
         }
       
